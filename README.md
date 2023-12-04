@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Create a paytech.rb file in the root of your project to configure the gem
 
-# paytech.rb
+### paytech.rb
     require 'paytech_gem'
 
     PaytechGem.configure do |config|
@@ -38,10 +38,13 @@ Create a paytech.rb file in the root of your project to configure the gem
 
     end
 
- Call it on by:
+ ### Usage it by calling:
 
- invoice = PaytechGem.initialize_payment(10000, "iphone" , ref_command)
-  puts invoice
+   invoice = PaytechGem.initialize_payment(10000, "iphone" , ref_command)
+   puts invoice
+
+   Store invoice["token"] and invoice["redirect_url"] in your database
+   So you can verify transaction authenticity when Paytech call your ipn url
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
