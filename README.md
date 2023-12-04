@@ -1,7 +1,7 @@
 # PaytechGem
 
 
-Welcome to your new gem `Paytech`! This one will help you integrate easily senegalese payments aggregator Paytech into your ruby project.
+Welcome to your new gem `Paytech`! This one will help you integrate easily senegalese payments aggregator [Paytech](https://paytech.sn/)into your Ruby On Rails project.
 
 ## Installation
 
