@@ -1,13 +1,14 @@
 # PaytechGem
 
 
-Welcome to your new gem `Paytech`! This one will help you integrate easily senegalese payments aggregator [Paytech](https://paytech.sn/)  into your Ruby On Rails project.
+Welcome to your new gem `Paytech`! This one will help you integrate easily senegalese payments aggregator [PAYTECH](https://paytech.sn/)  into your Ruby On Rails project.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    $ gem 'paytech_gem', '~> 0.1.0' # Adjust the version as needed
+    $ gem 'paytech_gem'
 
 
 And then execute:
@@ -16,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-     $ gem install paytech_gem -v '0.1.0' # Adjust the version as needed
+     $ gem install paytech_gem -v '0.1.0' 
 
 ## Usage
 
